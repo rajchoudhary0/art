@@ -263,6 +263,7 @@ nav {
 
 .toggle .line2 {
   opacity: 0;
+  transform: translateX(60px);
 }
 
 .toggle .line3 {
