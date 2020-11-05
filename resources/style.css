@@ -170,7 +170,7 @@ nav {
       transform: translateX(-100%);
       transition: 0.5s ease-in;
       z-index: 99;
-
+    justify-content: space-evenly;
   }
   .nav-links li {
       opacity: 0;
