@@ -171,7 +171,7 @@ nav {
     margin-left: 5%;
   }
   .nav-links {
-      position: absolute;
+      position: fixed;
       right: 0;
       height: 100vh;
       top: 0vh;
@@ -189,8 +189,8 @@ nav {
       opacity: 0;
   }
   .burger {
-    position: absolute;
-    top: 30%;
+    position: fixed;
+    top: 5%;
     right: 5%;
     margin-right: 5%;
       display: block;
