@@ -1,91 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Art Ecoomerce</title>
-    <link rel="stylesheet" href="resources/style.css" />
-  </head>
-  <body>
-    <div class="hero__bg"></div>
-    <div class="intersect"></div>
-    <header id="main-header">
-      <nav>
-          <div class="logo__div">
-            <img src="images/logo1.png" class="logo" alt="" />
-          </div>
-          <ul class="nav-links">
-            <li class="item__link"><a href="#">Home</a></li>
-            <li class="item__link"><a href="#">About Us</a></li>
-            <li class="item__link"><a href="#">Shop</a></li>
-            <li class="item__link"><a href="#">Products</a></li>
-            <li class="item__link"><a href="#">Contact</a></li>
-            <li class="item__link">
-              <div class="user__icons">
-                <ul class="icon__list">
-                  <li class="search">
-                    <a href="#">
-                      <img src="images/Search.png"  class="icon"/>
-                    </a>
-                  </li>
-                  <li class="user">
-                    <a href="#">
-                      <img src="images/User.png" class="icon"/>
-                    </a>
-                  </li>
-                  <li class="cart">
-                    <a href="#">
-                      <img src="images/Cart.png" class="icon"/>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              
-            </li>
-          </ul>
-          <div class="burger">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-          </div>
-      </nav>
-  </header>
-    <section class="hero">
-        <div class="container">
-          <div class="main__head">
-            <div class="rect"></div>
-            <h1>Your one step destination to <span>Uniqueness</span></h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-              dignissimos molestias omnis laudantium qui quasi mollitia? Minima
-              dolore neque a voluptatem
-            </p>
-            <a href="#" class="cta__btn">Read More</a>
-          </div>
-          <div class="social__icons">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Art Ecoomerce</title>
+  <link rel="stylesheet" href="resources/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+
+</head>
+
+<body>
+  <div class="hero__bg"></div>
+  <div class="intersect"></div>
+  <header id="main-header">
+    <nav>
+      <div class="logo__div">
+        <img src="images/logo1.png" class="logo" alt="" />
+      </div>
+      <ul class="nav-links">
+        <li class="item__link"><a href="#">Home</a></li>
+        <li class="item__link"><a href="#">About Us</a></li>
+        <li class="item__link"><a href="#">Shop</a></li>
+        <li class="item__link"><a href="#">Products</a></li>
+        <li class="item__link"><a href="#">Contact</a></li>
+        <li class="item__link">
+          <div class="user__icons">
             <ul class="icon__list">
-              <li class="fb">
+              <li class="search">
                 <a href="#">
-                  <img src="images/fb.png" class="icon"/>
+                  <img src="images/Search.png" class="icon" />
                 </a>
               </li>
-              <li class="ins">
+              <li class="user">
                 <a href="#">
-                  <img src="images/ins.png" class="icon"/>
+                  <img src="images/User.png" class="icon" />
                 </a>
               </li>
-              <li class="tw">
+              <li class="cart">
                 <a href="#">
-                  <img src="images/tw.png" class="icon"/>
-                  </a>
+                  <img src="images/Cart.png" class="icon" />
+                </a>
               </li>
             </ul>
           </div>
+
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <div class="main__head">
+        <div class="rect"></div>
+        <h1>Your one step destination to <span>Uniqueness</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+          dignissimos molestias omnis laudantium qui quasi mollitia? Minima
+          dolore neque a voluptatem
+        </p>
+        <a href="#" class="cta__btn">Read More</a>
+      </div>
+      <div class="social__icons">
+        <ul class="icon__list">
+          <li class="fb">
+            <a href="#">
+              <img src="images/fb.png" class="icon" />
+            </a>
+          </li>
+          <li class="ins">
+            <a href="#">
+              <img src="images/ins.png" class="icon" />
+            </a>
+          </li>
+          <li class="tw">
+            <a href="#">
+              <img src="images/tw.png" class="icon" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="products">
+    <h3 class="sub__head">Our Products</h3>
+
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide pcards">
+          <img src="https://unsplash.it/300/350" alt="" class="pimg">
+          <div class="pdetails">
+
+          </div>
         </div>
-    </section>
-    <section class="products">
-        <h3 class="sub__head">Our Products</h3>
-    </section>
-    <script src="resources/script.js"></script>
-  </body>
+        <div class="swiper-slide pcards">Slide 2</div>
+        <div class="swiper-slide pcards">Slide 3</div>
+        <div class="swiper-slide pcards">Slide 4</div>
+        <div class="swiper-slide pcards">Slide 5</div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <script src="resources/script.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+         // init: false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+        breakpoints: {
+          '@0.00': {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          '@0.55': {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          '@0.80': {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          '@1.00': {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          '@1.50': {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        }
+      });
+  </script>
+</body>
+
 </html>

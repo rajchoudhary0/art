@@ -182,21 +182,26 @@ nav {
   font-size: 3rem;
   font-weight: 400;
 }
-.product__div{
-  display: grid;
-  grid-template-columns: ;
-}
-.pcards{
-  height: auto;
-  width: 100%;
-  background-color: violet;
-}
 
+.pcards{
+  background-color: var(--sec);
+  margin-right: 20px;
+  padding:1rem;
+  border-radius: 10px;
+}
+.swiper-container {
+  width: 80vw;
+  height: 300px;
+}
+.pimg{
+  width:100%;
+  height: auto;
+}
 /* Products */
 
 @media screen and (max-width:1024px) {
   .hero__bg {
-    background-image: url("../images/bg.png");
+    background: url("../images/bg.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -222,7 +227,7 @@ nav {
       right: 0;
       height: 100vh;
       top: 0vh;
-      background: linear-gradient(90deg, #a9bcf4 0%, #f6a1b6bb 100%);
+      background: linear-gradient(90deg, #a9bcf4 0%, #f6a1b6 100%);
       width: 100%;
       flex-direction: column;
       align-items: center;
