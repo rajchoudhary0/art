@@ -192,7 +192,8 @@
           </div>
         </div>
       </div>
-      <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
     </div>
   </section>
 <section class="products">
@@ -299,12 +300,18 @@
         </div>
       </div>
     </div>
-    <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
   </div>
 </section>
   <script src="resources/script.js"></script>
   <script>
     var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        hideOnClick: 'true',
+      },
         slidesPerView: 1,
         spaceBetween: 10,
       //  autoplay: {
