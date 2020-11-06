@@ -184,6 +184,7 @@ nav {
 }
 .product__div{
   display: grid;
+  grid-template-columns: ;
 }
 .pcards{
   height: auto;
@@ -353,7 +354,7 @@ nav {
 }
 @media screen and (max-width:480px) {
   .container{
-    padding-top: 40vw;
+    padding-top: 35vw;
   }
   .burger div {
     height: 3px;
